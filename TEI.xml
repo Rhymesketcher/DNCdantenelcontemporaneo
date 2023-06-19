@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Introduzione (teatrale) a commedia (cinematografica) di Federico Tiezzi </title>
+<author xml:id="FT">Federico Tiezzi</author>
+<date>1 febbraio 1996</date>
+<respStmt>
+<resp>convertito in XML</resp>
+<name xml:id="FS">Federica Soriano</name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<p>Not for distribution.</p>
+</publicationStmt>
+<sourceDesc>
+<p>Trascritto dalla versione disponibile in formato pdf reperibile sul sito della Compagnia Lombardi-Tiezzi</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<front> <!-- ??? -->
+</front>
+<body>
+<lg n="1" xml:lang="it"><l n="2">Introduzione (teatrale) a commedia (cinematografica) di <person site="https://viaf.org/viaf/79416095/#Tiezzi,_Federico">Federico Tiezzi</person></l></lg>
+
+<lg n="2"><l n="3"><place>Genova</place>,<date>13 dicembre 1988</date>, <time>ore 18 e 30.</time></l></lg>
+
+<lg n="3"><l n="4">Scesi dal treno e mi avviai verso la <location>Facoltà di Lettere.</location> Pen-</l>
+<l n="5">savo all'Inferno (quello degli spaventi notturni) e mi dicevo</l>
+<l n="6">che deve somigliare un po', l'Inferno, a una città: luogo del-</l>
+<l n="7">la nequizia sonora e della luce assente. Le alte case strette,</l>
+<l n="8">come inchiodate al monte, di <location>Genova</location>, sembravano annuire</l>
+<l n="9">e dire: "L'Inferno è la città dei linguaggi, la palus putredinis</l>
+<l n="10">della lingua". Già: città come inferno della poesia.</l></lg>
+
+<lg n="4"><l n="11">Immagine a ritroso: autostrada per il <location>Kennedy Airport</location>.<location>New</location></l> 
+<l n="12"><location>York</location> mi appariva lontana, tramonto rosso, fumi chissà da</l>
+<l n="13">dove usciti azimutavano il cielo (e lo soffittavano di nuvole</l>
+<l n="14">radiose), perimetro di grattacieli a cingere (come giganti) il</l>
+<l n="15">dorso delle case e delle strade. Una mostruosa Monteriggio-</l>
+<l n="16">ni: "ecco la città di Dite" pensai.</l></lg>
+
+<lg n="5"><l n="17">Dunque me ne andavo per <location>Genova</location> allegramente: un taxi si</l>
+<l n="18">rifiuta di portarmi a destinazione, a piedi sono duecento metri</l>
+<l n="19">esorta il tassista... (chissà se Virgilio avrà sussurrato una stessa</l>
+<l n="20">frase a un Dante stanco...). Mi avviai verso quel limbo della</l>
+<l n="21">città, <location>l'Università</location>, per incontrare <person site="https://viaf.org/viaf/66478877/#Sanguineti,_Edoardo,_1930-2010"><surname>Sanguinati</surname></person>, mia guida dram-</l>
+<l n="22">maturgica alla prima cantica della Commedia, un altro Virgilio.</l></lg>
+
+<lg n="6"><l n="23">Mi ridicevo quell'incipit di <quote>Laborintus: "ah il mio sonno..."</quote></l>
+<l n="24">etceterissima. E poi <quote>Dante: "...tant'era picn di sonno a quel</quote></l>
+<l n="25"><quote>punto...".</quote> Di sonno... Il teatro che dorme aspettava un ri-</l>
+<l n="27">sveglio: che poteva essere questo progetto folle: riscrivere l'In-</l>
+<l n="28">ferno di Dante per uno spettacolo da tenersi al <place>Fabbricone,</place></l>
+<l n="29">a <place>Prato</place>, alla fine di un lungo laboratorio (con la partecipa-</l>
+<l n="30">zione degli attori della mia compagnia e di neodiplomati delle</l>
+<l n="31">scuole di recitazione nazionali). Riattraversando, insieme a</l>
+<l n="32">un drammaturgo, la terra devastata del teatro verso un diffi-</l>
+<l n="33">cile approdo: che era: un testo per uno stile teatrale (il mio),</l> 
+<l n="34">e uno stile teatrale che si muta attraverso un testo (<person><name>Dante</name></person>-</l>
+<l n="35"><person site="https://viaf.org/viaf/66478877/#Sanguineti,_Edoardo,_1930-2010"><surname>Sanguinati</surname></person>). L'ho detto: una follia.</l></lg>
+
+<lg n="7"><l n="36">Lividissima <location>Genova</location>, e materna: quel giorno eri senza sole</l>
+<l n="37">e ghiaccia come lastra di pietra serena umida in canto scuro</l>
+<l n="38">di chiesa. Palus putredinis.</l></lg>
+
+<lg n="8"><l n="39"><person site="https://viaf.org/viaf/66478877/#Sanguineti,_Edoardo,_1930-2010"><surname>Sanguinati</surname></person> sa orientare il linguaggio: sa concentrarlo e gui-</l>
+<l n="40">darlo come esperienza verbale, come esperienza storica. La sua </l>
+<l n="42">poesia possiede un quid di infernalità: un ío narrante, disin-</l>
+<l n="43">tegrato, cerca nella selva oscura delle parole (e forse trova,</l> 
+<l n="44">attraverso la narrazione, attraverso il racconto) un suo cata-</l>
+<l n="45">strofico ordine, o salvezza. Nel caos deflagrante del plurilin-</l>
+<l n="46">guismo, nella babele dell'afasia, il procedere (quasi per ana-</l>
+<l n="47">lisi freudiana) dell'io rende flagrante (identificandosi l'io, il</l> 
+<l n="48">soggetto, con l'esperienza verbale in atto), liricamente, l'at-</l>
+<l n="49">tività di questa esperienza. Riconducendo le parole a un or-</l>
+<l n="50">dine, a un cosmo. Insomma: se la poesia di <person site="https://viaf.org/viaf/66478877/#Sanguineti,_Edoardo,_1930-2010"><surname>Sanguinati</surname></person> scop-</l>
+<l n="51">pia come esperienza verbale (attraverso sonorità, citazioni </l>
+<l n="52">e intenzioni in altre lingue, parole "alte" e termini "bassi"),</l>
+<l n="53">essa si ricompone come riflessione sul racconto interiore. Il</l>
+<l n="54">verso, spezzato, frantumato dall'attività dell'esperienza e ri-</l>
+<l n="55">composto dalla riflessione che il poeta compie sulla stessa espe-</l>
+<l n="56">rienza (nel suo farsi), rende la poesia di <person site="https://viaf.org/viaf/66478877/#Sanguineti,_Edoardo,_1930-2010"><surname>Sanguinati</surname></person> pronta </l>
+<l n="57">per la phoné dell'attore: un canto.</l></lg>
+
+<lg n="9"><l n="58">Berberianamente ribobolano le parole dei versi di Sanguine-</l>
+<l n="59">ti nel cavo orale dell'attore: lì divengono proiettili pronti per</l>
+<l n="60">addensarsi al cuore e ai sensi dell'ascoltatore. Come nuove</l>
+<l n="61">revolverate lucinesche.</l></lg>
+
+<lg n="10"><l n="62">Il teatro, mi dicevo sempre andando, ha bisogno di questa</l>
+<l n="63">analisi per scuotersi dal suo sonno.</l></lg>
+
+<lg n="11"><l n="64">Andavo. Quando da una vetrina imbrillantata sursero fuori</l>
+<l n="65">le copertine degli ultimi successi letterari. Come belve: an-</l>
+<l n="66">che se un po' depresse. Specie su tre affissai lo sguardo. No-</l>
+<l n="67">nostante la loro pelle fosse elegante potevo immaginare la</l>
+</lg>
+
+</body>
+<back>
+<div type="tag">
+<p>#Sanguineti #introduzione #Tiezzi #Poesia #Dante #Commedia</p>
+</div>
+</back>
+</text>
+</TEI>

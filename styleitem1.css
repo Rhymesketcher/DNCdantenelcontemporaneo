@@ -1,0 +1,256 @@
+body {
+/*background insert*/
+background-image: url(immagini/1.png);
+background-position: top right;
+background-repeat: no-repeat;
+background-size: 65%;
+background-color: #FEFFED;
+}
+
+.container-fluid {
+padding-left: 25px;
+}
+
+/*loadingbar*/
+.loading {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #212529;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #212529;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #DC3545;
+  width: 0%;
+}
+
+h1 {
+  font-family: "Jost", fantasy; /*Da rivedere*/
+  font-size: 67px;
+  font-weight: bold;
+  text-shadow: 3px 3px 4px #6A5F52;
+}
+
+/*sottotitolo pagina*/
+h3 {
+  font-family: "Urbanist", fantasy;
+  text-shadow: 1px 1px 2px #6A5F52; /*Da rivedere*/
+}
+
+h4 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin: 3px;
+  padding: 2px;
+}
+
+p {
+  font-family:"Poppins", sans-serif;
+  padding: 4px;
+}
+
+a {
+  color: #BEA500;
+  font-weight: lighter;
+  text-decoration: none;
+  transform: scale(1.0);
+}
+
+a:hover {
+  color: #DC3545;
+  transition: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.card-header {
+  background-color: #A1ABAA;
+  color: whitesmoke;
+}
+
+.cardfooter {
+  background-color: #A1ABAA;
+  color: whitesmoke;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  letter-spacing: 2px;
+  text-shadow: 2px 1px 2px black;
+}
+
+/* Breadcrumb */
+ul.breadcrumb {
+  padding: 5px 5px;
+  margin-left: 20px;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 5px;
+  color: #DC3545;
+  content: "✦\00a0";
+}
+
+ul.breadcrumb li a {
+  color: #119D98;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: #419B97;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*sidebar*/
+.sidebar {
+  float: left;
+  width: 15%;
+  margin-top: 30px;
+  margin-left: 7px;
+  margin-right: 20px;
+  box-shadow: 5px 5px 8px #6A5F52;
+}
+
+.bottonifiltroAZ {
+  margin-top: 5px;
+  margin-left: 50px;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+.bottonifiltrinew {
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+.nav-link {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 10px;
+}
+
+.nav-link:hover {
+  animation: navlinkhover 0.8s;
+  transform: scale(1.1);
+  color: #DC3545;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes navlinkhover {
+  from {    transform: none;
+    color: #6A6D80;}
+  to {    transform: scale(1.1);
+    color: #DC3545;}
+}
+
+.nav-link a:active {
+  background-color: darkred;
+  color: whitesmoke;
+}
+
+.share {
+  text-align: center;
+  color: whitesmoke;
+  color: whitesmoke;
+}
+
+/*CAROSELLO*/
+
+.carousel-item {
+margin-top: 10px;
+}
+
+.card { /* mettere carosello al posto della card */
+  box-shadow: 0 4px 10px 0 #6A5F52;
+  width: 53%;
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color: whitesmoke;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 #6A5F52;
+  animation: hovercard .4s;
+  width: 54%;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+
+@keyframes hovercard {
+  from {box-shadow: 0 4px 8px 0 #6A5F52;
+  width: 53%;}
+  to {box-shadow: 0 8px 16px 0 #6A5F52;
+    width: 54%;}
+}
+
+.container {
+  padding: 4px 16px;
+}
+
+aside {
+  margin-top: 10px;
+  float: right;
+  width: 30%;
+}
+
+.cardguida {
+  margin-right: 2px;
+}
+
+/*paginazione*/
+.pagination {
+  display: inline-block;
+  position: relative;
+  float: left;
+  margin-left: 400px;
+  margin-top: 30px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 3px 3px 4px black;
+}
+
+.pagination a {
+  color: whitesmoke;
+  float: left;
+  padding: 7px 16.3px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: #08706C;
+  color: whitesmoke;
+}
+
+.pagination a:hover:not(.active) {background-color: #87C4AC;}
+
+footer {
+  position: relative;
+  padding-bottom: 100px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}

@@ -1,0 +1,78 @@
+/* Stile di base Welcome Page */
+body {
+	background-color: #1AA1B8;
+}
+
+/* Immagine Dante */
+.bg-image {
+  animation: danteanimation 2s;
+  animation-timing-function: ease-in-out;
+  position: fixed;
+  left:0px; top:0px;
+}
+
+/* Animazione Immagine Dante */
+@keyframes danteanimation {
+  from {opacity: 0%; left:0px; top:100px;}
+  to {opacity: 100%; left:0px; top:0px;}
+}
+
+/* Testo al centro della pagina */
+.bg-text {
+  color: white;
+   position: fixed;
+   margin-left: 60px;
+  font-weight: 900;
+  font-size: 100px;
+  font-family: "Jost", sans-serif;
+  text-shadow: 5px 6px 8px #293139;
+  position: fixed;
+  top: 360px;
+  left: 998px;
+  float: right;
+  opacity: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 500px;
+  padding: 100px;
+  text-align: right;
+  letter-spacing: 1rem;
+  animation: textpopup 2s;
+}
+
+/* Animazione Popup testo */
+@keyframes textpopup {
+  from {opacity: 0%; left:998px; top:1000px;}
+  to {opacity: 100%; left:998px; top:360px;}
+}
+
+/* Animazione dinamica Hover */
+.bg-text:hover {
+  animation: texthover 1s ;
+   float: right;
+   position: fixed;
+   margin-left: 60px;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  font-size: 120px;
+  letter-spacing: 2rem;
+  color: white;
+}
+
+@keyframes texthover {
+  from {color: white;
+        font-size: 100px;
+        letter-spacing: 1rem;}
+  to {color: beige;
+        font-size: 120px;
+      letter-spacing: 2rem;}
+    }
+
+/* Visita al Link */
+a:link, a:visited {
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}

@@ -1,0 +1,341 @@
+<!--Item-->
+<!doctype html>
+<html lang="it">
+
+<head>
+
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="styleitem1.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Urbanist">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+ 
+    <link rel="icon" type="image/x-icon" href="immagini/icona_sito.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <title> La Commedia Divina | Dante nel contemporaneo </title>
+
+</head>
+
+<body>
+<header>
+
+<!-- navbar sopra -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="immagini/Dante_icon_w.png" alt="" width="30" height="30">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="catalogo.html">Catalogo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">About</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Cerca">
+        <button class="btn btn-danger" type="button">Cerca</button>
+      </form>
+    </div>
+  </div>
+</nav>
+</header>
+
+<div class="loading">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+</div>
+
+<div class="container-fluid mt-3">
+  <h1>La Commedia Divina</h1>
+  <h3>Serie di spettacoli teatrali</h3>
+</div>
+<!-- Breadcrumbs -->
+<ul class="breadcrumb">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Catalogo</a></li>
+  <li>Commedia Divina</li>
+</ul>
+
+<!-- Sidebar -->
+
+<div class="sidebar">
+  <nav class="navbar bg-light">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <h4> Azioni </h4><hr>
+        <div class="share mt-4">
+          <button type="button" class="btn btn-sm btn-danger"><i class="bi bi-share-fill"></i>
+          🔗 Condividi</button>
+        </div>
+        <div class="share mt-4">
+          <button type="button" class="btn btn-sm btn-danger"><i class="bi bi-share-fill"></i>
+          ⤵️ Immagini</button>
+        </div>
+         <div class="share mt-4">
+          <button type="button" class="btn btn-sm btn-danger"><i class="bi bi-share-fill"></i>
+          ⤵️ XML/TEI (solo testi)</button>
+        </div>
+        <div class="share mt-4">
+          <button type="button" class="btn btn-sm btn-dark"><b><a href="metadatisp.xml" download>⤵️ XML/DC (tutti gli item)</a>
+          </button></b>
+        </div>
+      </li>
+  
+<hr>
+      <li class="nav-item">
+        <li class="nav-item">
+        <a class="nav-link" href="index.html">Torna alla home</a>
+      </li>
+        <a class="nav-link" href="catalogo.html">Torna al Catalogo</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Elementi correlati</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Scopri di più</a>
+      </li>
+      </li>
+     <hr>
+    </ul>
+  </div>
+</nav>
+</div>
+
+  <!-- Aside Guida-->
+  <aside>
+    <div class="col-md-8 w-60">
+<div class="card w-100">
+  <img src="immagini/itemcorrelati/2.png" alt="Mario Luzi" style="width:100%">
+  <div class="container">
+    <h4><b>Mario Luzi</b></h4> 
+    <p>Scopri gli autori</p> 
+  </div>
+</div>
+
+    <div class="col-md-8 w-100">
+<div class="card w-100">
+  <img src="immagini/itemcorrelati/3.png" alt="Purgatorio" style="width:100%">
+  <div class="container">
+    <h4><b>Purgatorio: <i>La notte lava la mente</i></b></h4> 
+    <p>Scopri le pubblicazioni</p> 
+  </div>
+</div>
+
+ <div class="col-md-8 w-100">
+<div class="card w-100">
+  <img src="immagini/catalogo/1.png" alt="Dante Plus" style="width:100%">
+  <div class="container">
+    <h4><b>Dante Plus</b></h4> 
+    <p>Scopri la mostra</p> 
+  </div>
+</div>
+
+</aside>
+
+<!-- Carosello -->
+
+<div class="col-md-8 col-sm-8 col-xs-12 mt-4">
+  <div class="row">
+    <div class="card w-100">
+       <!-- carousel -->
+
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+     <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+       <img src="immagini/eventi/1.png" alt="dante plus" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h2></h2>
+        <div class="descriptionitems">
+        <p></p>
+      </div>
+    </div>
+    </div>
+    <div class="carousel-item">
+        <img src="immagini/eventi/2.png" alt="Go Nagai" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h2></h2>
+        <div class="descriptionitems">
+        <p></p>
+      </div> 
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="immagini/eventi/3.png" alt="Lars von Trier" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h2></h2>
+        <div class="descriptionitems">
+        <p></p>
+      </div>
+      </div>  
+    </div>
+    <div class="carousel-item">
+      <img src="immagini/eventi/4.png" alt="Dante's Inferno" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h2></h2>
+        <div class="descriptionitems">
+        <p></p>
+      </div>
+      </div>  
+    </div>
+    <div class="carousel-item">
+      <img src="immagini/eventi/5.png" alt="Roberto Ferri" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h2></h2>
+        <div class="descriptionitems">
+        <p></p>
+      </div> 
+      </div> 
+    </div>
+  </div>
+
+                  </div>
+                <!-- didascalia principale -->
+                <div class="card-header pt-4">
+                <p class="text-justify"> <b>Rappresentazioni teatrali</b> della "Commedia Divina" dantesca, ideata da <b>Federico Tiezzi</b> e realizzata in collaborazione con i poeti <b>Sanguineti</b>(Inferno), <b>Luzi</b>(Purgatorio) e <b>Giudici</b>(Paradiso) tra il 1989 e il 1991. Le drammaturgie vennero pubblicate dalla casa editrice <i>Costa & Nolan</i> nella collana <i>«L’Opera Drammatica».</i><a href="Articolo.html" class="btn btn-sm btn-danger float-right" title="Vai all'articolo'">Leggi l'introduzione di Federico Tiezzi</a></p>
+               </div>
+              <!-- METADATI -->
+              <div class="card-body">
+             <p class="card-text"><span>Titolo:</span> <b>La Commedia Divina</b></p>
+              <hr>
+              <p class="card-text"><span>Creatori:</span> <b><a href="https://viaf.org/viaf/79416095/#Tiezzi,_Federico" target="_blank" title="Identificativo VIAF di Tiezzi Federico">Tiezzi Federico<sup>VIAF</sup></a></b> <a href="persona1.html" class="btn btn-sm btn-danger float-right" title="Vai alla pagina di Tiezzi Federico nella sezione Persone">Vedi in Persone</a> <a href="https://viaf.org/viaf/66478877/#Sanguineti,_Edoardo,_1930-2010" target="_blank" title="Identificativo VIAF di Sanguineti Edoardo">Sanguineti Edoardo<sup>VIAF</sup></a></b> <a href="persona2.html" class="btn btn-sm btn-danger float-right" title="Vai alla pagina di Sanguineti Edoardo nella sezione Persone">Vedi in Persone</a> <a href="https://viaf.org/viaf/71402748/#Luzi,_Mario,_1914-2005." target="_blank" title="Identificativo VIAF di Luzi Mario">Luzi Mario<sup>VIAF</sup></a></b> <a href="persona3.html" class="btn btn-sm btn-danger float-right" title="Vai alla pagina di Luzi Mario nella sezione Persone">Vedi in Persone</a> <a href="https://viaf.org/viaf/114615353/#Giudici,_Giovanni,_1924-2011" target="_blank" title="Identificativo VIAF di Giudici Giovanni">Giudici Giovanni<sup>VIAF</sup></a></b> <a href="persona4.html" class="btn btn-sm btn-danger float-right" title="Vai alla pagina di Giudici Giovanni nella sezione Persone">Vedi in Persone</a>
+              </p>
+              <hr>
+              <p class="card-text"><span>Date:</span> <b><a href="#" title="1989-1991">1989-1991</a></b> <button type="button" class="btn btn-danger btn-sm float-right">Vedi in Date</button>
+              </p>
+              <hr>
+              <p class="card-text"><span>Tipo di oggetto:</span> <b><a href="https://www.lombarditiezzi.it/progetto-commedia-divina/" target="_blank" title="Vedi sul sito della Compagni Lombardi Tiezzi">Serie di spettacoli teatrali &lt; Arte Teatrale &lt;
+              Arte</a></b></p>
+              <hr>
+              <p class="card-text"><span>Fonte</span> <b><a href="https://www.lombarditiezzi.it/progetto-commedia-divina/" target="_blank" title="Pagina della Compagnia Lombardi Tiezzi">Compagnia Lombardi Tiezzi<sup>Sito Web</sup></a></b>
+              </p>      
+              <hr>
+              <div class="cardfooter">
+              <p class="card-text">Tema:</p>
+                  <!-- tags -->
+                <div>
+                <button type="button" class="btn btn-light btn-sm"><i class="bi bi-tag-fill"></i>
+                 Opere teatrali</button>
+                <button type="button" class="btn btn-light btn-sm"><i class="bi bi-tag-fill"></i>
+                Drammaturgia</button>
+                <button type="button" class="btn btn-light btn-sm"><i class="bi bi-tag-fill"></i>
+                 Riscrittura</button>
+               <button type="button" class="btn btn-light btn-sm"><i class="bi bi-tag-fill"></i>
+                Novecento</button>
+               </div>
+              <hr>
+            </div>
+          </div>
+          </div>
+  
+
+
+<!-- Paginazione -->
+<br><br>
+<div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#" class="active">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+</div>
+
+
+<footer>
+  <!--Copyright-->
+ &copy; Copyright Federica Soriano | Corso di Digital Humanities e Patrimonio Culturale
+ <br><br/><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a><br><br/>Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribuzione 4.0 Internazionale</a>.
+</footer>
+
+<script src="bootstrap/js/bootstrap.bundle.js"></script>
+
+<!-- script loadbar -->
+<script>window.onscroll = function() {myFunction()};
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";}</script>
+  <script> let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+  </script>
+
+<!--script slideshow-->
+  <script>
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
+
+
+
+</body>
+</html>

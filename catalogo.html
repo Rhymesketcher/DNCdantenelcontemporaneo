@@ -1,0 +1,267 @@
+<!--Catalogo-->
+<!doctype html>
+<html lang="it">
+
+<head>
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Catalogo.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Urbanist">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+  <link rel="icon" type="image/x-icon" href="immagini/icona_sito.ico">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title> CATALOGO | Dante nel contemporaneo </title>
+
+</head>
+
+<body>
+  <header>
+
+    <!-- navbar sopra -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="immagini/Dante_icon_w.png" alt="" width="30" height="30">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Catalogo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">About</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Cerca">
+            <button class="btn btn-danger" type="button">Cerca</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="loading">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+</div>
+
+
+<div class="container-fluid mt-3">
+  <h1>CATALOGO</h1>
+  <h3>esplora le risorse</h3>
+</div>
+<!-- Breadcrumbs -->
+<ul class="breadcrumb">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Catalogo</a></li>
+  <li>Catalogo</li>
+</ul>
+
+<!-- Sidebar -->
+
+<div class="sidebar">
+  <nav class="navbar bg-light">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <h4> Ordine Alfabetico </h4>
+          <div class="bottonifiltroAZ">
+            <button type="button" class="btn btn-sm btn-danger">A-Z</button>
+            <button type="button" class="btn btn-sm btn-danger">Z-A</button>
+          </div>  
+        </li>
+        <br>
+        <h4> Filtra per </h4>
+        <div class="bottonifiltrinew">
+          <button type="button" class="btn btn-sm btn-danger">Luoghi</button>
+          <button type="button" class="btn btn-sm btn-danger">Media</button>
+          <button type="button" class="btn btn-sm btn-danger">Data</button>
+        </div>
+        <br>
+
+        <h4> Visualizza </h4><br>
+
+        <button class="tablinks" onclick="openFilter(event, 'Mostratutto')">Mostra Tutto</button>
+        <button class="tablinks" onclick="openFilter(event, 'Libri')">Libri</button>
+        <button class="tablinks" onclick="openFilter(event, 'Eventi')">Eventi e Teatro</button>
+        <button class="tablinks" onclick="openFilter(event, 'Fumetti')">Fumetti</button>
+        <button class="tablinks" onclick="openFilter(event, 'Cinema')">Cinema</button>
+        <button class="tablinks" onclick="openFilter(event, 'Arte')">Arte</button>
+        <button class="tablinks" onclick="openFilter(event, 'Videogiochi')">Videogiochi</button>
+        <br>
+      </nav>
+    </div>
+
+    <!--Showcase foto catalogo-->
+
+    <br>
+    <div class="galleriacatalogo">
+
+      <div id="Fumetti" class="tabcontent">
+        <div class="gallery"> <!--Immagine1-->
+          <a target="_blank" href="#">
+            <img src="immagini/Catalogo/10.png" alt="La Divina Commedia di Go nagai" width="300" height="400">
+          </a>
+          <div class="desc"> La Divina Commedia di Go nagai </div>
+        </div>
+
+        <div class="gallery"> <!--Immagine2-->
+          <a target="_blank" href="#">
+            <img src="immagini/Catalogo/6.png" alt="Graphic Novel" width="300" height="400">
+          </a>
+          <div class="desc"> L'inferno di Dante in Graphic Novel </div>
+        </div>
+      </div>
+
+      <div id="Cinema" class="tabcontent">
+        <div class="gallery"> <!--Immagine3-->
+          <a target="_blank" href="#">
+            <img src="immagini/Catalogo/4.png" alt="Dolente Bellezza" width="300" height="400">
+          </a>
+          <div class="desc"> Dolente Bellezza (2021) </div>
+        </div>
+
+        <div class="gallery"> <!--Immagine7-->
+          <a target="_blank" href="#">
+            <img src="immagini/Catalogo/5.png" alt="La Casa di Jack" width="300" height="400">
+          </a>
+          <div class="desc"> La Casa di Jack </div>
+        </div>
+      </div>
+
+      <div id="Eventi" class="tabcontent">
+       <div class="gallery"> <!--Immagine5-->
+         <a target="_blank" href="#">
+          <img src="immagini/Catalogo/1.png" alt="Dante Plus Mostra " width="300" height="400">
+         </a>
+        <div class="desc"> Dante Plus Mostra </div>
+      </div>
+
+      <div class="gallery"> <!--Immagine5+-->
+        <a target="_blank" href="item1.html">
+          <img src="immagini/itemcorrelati/1.png" alt="CommediaDivinaSpettacolo" width="300" height="400">
+        </a>
+        <div class="desc"> La Commedia Divina </div>
+      </div>
+    </div>
+
+
+      <div id="Arte" class="tabcontent">
+        <div class="gallery"> <!--Immagine4-->
+          <a target="_blank" href="#">
+            <img src="immagini/Catalogo/2.png" alt="Mountains" width="300" height="400">
+          </a>
+          <div class="desc"> La quercia di Dante </div>
+        </div>
+
+        <div class="gallery"> <!--Immagine9-->
+          <a target="_blank" href="#">
+            <img src="immagini/Catalogo/9.png" alt="Mountains" width="300" height="400">
+          </a>
+          <div class="desc"> Il bacio di Dante </div>
+        </div>
+      </div>
+
+      <div id="Libri" class="tabcontent">
+        <div class="gallery"> <!--Immagine8-->
+          <a target="_blank" href="#">
+            <img src="immagini/Catalogo/7.png" alt="Mountains" width="300" height="400">
+          </a>
+          <div class="desc"> Scopri l'Inferno di Dante coi Videogiochi </div>
+        </div>
+
+        <div class="gallery"> <!--Immagine10-->
+          <a target="_blank" href="#">
+            <img src="immagini/Catalogo/3.png" alt="Mountains" width="300" height="400">
+          </a>
+          <div class="desc"> L’Italia di Dante. Viaggio nel paese della Commedia </div>
+        </div>
+      </div>
+
+    <div id="Videogiochi" class="tabcontent">
+      <div class="gallery"> <!--Immagine6-->
+        <a target="_blank" href="#">
+          <img src="immagini/Catalogo/8.png" alt="Mountains" width="300" height="400">
+        </a>
+        <div class="desc"> Dante's inferno (1986) </div>
+      </div>
+    </div>
+
+  </div>
+
+  <br>
+
+  <!-- pagination -->
+  <div class="pagination">
+    <a href="#">&laquo;</a>
+    <a href="#" class="active">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">6</a>
+    <a href="#">&raquo;</a>
+  </div>
+  <!--footer-->
+
+  
+<footer>
+  <!--Copyright-->
+ &copy; Copyright Federica Soriano | Corso di Digital Humanities e Patrimonio Culturale
+ <br><br/><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a><br><br/>Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribuzione 4.0 Internazionale</a>.
+</footer>
+
+  <!-- script bootstrap -->
+
+  <script src="bootstrap/js/bootstrap.bundle.js"></script>
+
+  <!-- script loadbar -->
+
+  <script>window.onscroll = function() {myFunction()};
+  function myFunction() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("myBar").style.width = scrolled + "%";
+  }</script>
+
+  <!-- script navbar -->
+
+  <script>
+    function openFilter(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+
+// Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+  </script>
+
+
+  <!-- script filtri -->
+
+
+
+</body>
+</html>
